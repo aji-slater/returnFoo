@@ -1,7 +1,7 @@
 language: node_js
 node_js:
     - "4"
-script: karma start my.conf.js --single-run --broswers chrome
+script: karma start my.conf.js --single-run --browsers chrome
 before_install:
     - export CHROME_BIN=/usr/bin/google-chrome
     - export DISPLAY=:99.0
