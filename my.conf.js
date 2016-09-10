@@ -1,8 +1,5 @@
 // Karma configuration
 // Generated on Sat Sep 10 2016 09:32:40 GMT-0500 (CDT)
-if (process.env.TRAVIS) {
-  configuration.browsers = ['Chrome_travis_ci'];
-}
 
 module.exports = function(config) {
   config.set({
