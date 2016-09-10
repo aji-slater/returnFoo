@@ -4,7 +4,7 @@
   "description": "Learning project for DOM manipulation without jQuery",
   "main": "index.js",
   "scripts": {
-    "test": "karma start --single-run"
+    "test": "karma start my.conf.js --single-run"
   },
   "repository": {
     "type": "git",
