@@ -1,5 +1,8 @@
 // Karma configuration
 // Generated on Sat Sep 10 2016 09:32:40 GMT-0500 (CDT)
+if (process.env.TRAVIS) {
+  configuration.browsers = ['Chrome_travis_ci'];
+}
 
 module.exports = function(config) {
   config.set({
@@ -7,6 +10,12 @@ module.exports = function(config) {
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
+    customLaunchers: {
+      Chrome_travis_ci: {
+        base: 'Chrome',
+        flags: ['--no-sandbox']
+      }
+    },
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
