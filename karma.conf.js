@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Sat Sep 10 2016 09:32:40 GMT-0500 (CDT)
+// Generated on Sat Sep 10 2016 13:07:32 GMT-0500 (CDT)
 
 module.exports = function(config) {
   config.set({
@@ -7,22 +7,17 @@ module.exports = function(config) {
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
-    customLaunchers: {
-      Chrome_travis_ci: {
-        base: 'Chrome',
-        flags: ['--no-sandbox']
-      }
-    },
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine', 'requirejs'],
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'lib/*.js', included: false},
-      {pattern: 'jasmine/spec/*.js', included: false}
+      'lib/*,js',
+      'lib/*.js',
+      'jasmine/spec/*.js'
     ],
 
 
@@ -57,7 +52,7 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: false,
+    autoWatch: true,
 
 
     // start these browsers
@@ -72,5 +67,5 @@ module.exports = function(config) {
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
-  });
-};
+  })
+}
