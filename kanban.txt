@@ -1,0 +1,47 @@
+# Kanban Taskboard
+
+## To Do
+
+## In Progress
+
+## Complete
+> * __copmlete__
+> * Setup Kanban textfile
+>   * #kanban #todo #project-management #organization
+>   - Aji
+>   - 9/10/16
+>   - This task tracking file
+>   - complete: 7:52a 9/10/16
+
+> * __complete__
+> * Install Jasmine
+>  * #test #jasmine #[BDD
+>  - Aji
+>  - 9-10-16
+>  - Instlal Jasmine testing framework
+>  - complete: 7:45a 9/10/16
+
+## Icebox
+
+## Wishlist
+
+
+
+# "User Stories"
+
+## Current
+
+## To Do
+
+## Complete
+
+
+# Bugfixes
+
+## Critical
+
+## To Do
+
+## In Progresse
+
+## Completed
