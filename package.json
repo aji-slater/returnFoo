@@ -1,0 +1,27 @@
+{
+  "name": "returnfoo",
+  "version": "0.0.1",
+  "description": "Learning project for DOM manipulation without jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run --browsers Chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aji-slater/returnFoo.git"
+  },
+  "author": "Aji Slater",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aji-slater/returnFoo/issues"
+  },
+  "homepage": "https://github.com/aji-slater/returnFoo#readme",
+  "devDependencies": {
+    "grunt": "0.3",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-requirejs": "^1.0.0",
+    "requirejs": "2"
+  }
+}
